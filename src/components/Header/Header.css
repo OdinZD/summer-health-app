@@ -69,7 +69,7 @@
     letter-spacing: -1.5px;
     line-height: 115.2px;
     position: absolute;
-    top: 74px;
+    top: 44px;
     white-space: nowrap;
 }
 .with-staycation-and-collect-rewards {
@@ -89,7 +89,7 @@
     font-family: var(--font-family-roboto);
     font-size: var(--font-size-m);
     font-weight: 700;
-    left: 131px;
+    left: 91px;
     letter-spacing: -1.5px;
     line-height: 115.2px;
     position: absolute;
@@ -100,7 +100,7 @@
     position: absolute;
 left: 0%;
 right: 0%;
-top: 0%;
+top: 17%;
 bottom: 0%;
 
 }

@@ -5,11 +5,17 @@ function Navigation() {
     <div className="container">
       <nav className="nav-container">
         <h6 className="title">Staycation</h6>
-        <div className="list">
-          <a href="#location">Locations</a>
-          <a href="#myplaces">My Places</a>
-          <a href="#bookings">My Bookings</a>
-        </div>
+        <ul className="nav-list">
+          <li>
+            <a href="#location">Locations</a>
+          </li>
+          <li>
+            <a href="#myplaces">My Places</a>
+          </li>
+          <li>
+            <a href="#mybookings">My Bookings</a>
+          </li>
+        </ul>
         <button className="logout">LOGOUT</button>
       </nav>
     </div>

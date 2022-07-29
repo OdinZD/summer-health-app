@@ -15,9 +15,9 @@ function Header() {
           <div className="with-staycation-and-collect-rewards">
             with Staycation and collect rewards
           </div>
-        </div>
-        <div className="book-now-save-10-or-more-today">
-          Book now & save 10% or more today
+          <div className="book-now-save-10-or-more-today">
+            Book now & save 10% or more today
+          </div>
         </div>
       </div>
     </div>

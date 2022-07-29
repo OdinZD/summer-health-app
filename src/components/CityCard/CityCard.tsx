@@ -1,22 +1,18 @@
 import React from "react";
-
-const CityCard = () => {
-  const cardInfo = [
-    {
-      name: "London",
-      count: "5102",
-    },
-  ];
+import London from "../../img/London.png";
+import "./CityCard.css";
+type Props = {
+  name: string;
+  count: number;
+};
+const CityCard = (props: Props) => {
   return (
     <div>
-      {cardInfo.map((name, index) => {
-        return (
-          <div key={index}>
-            <p>{name.name}</p>
-            <p>{name.count}</p>
-          </div>
-        );
-      })}
+      <div className="city-container">
+        <img src={London} alt="" />
+        <p>{props.name}</p>
+        <p>{props.count}</p>
+      </div>
     </div>
   );
 };
