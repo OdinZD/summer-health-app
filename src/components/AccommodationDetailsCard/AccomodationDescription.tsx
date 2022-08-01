@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./AccommodationDetails.css";
 export const AccomodationDescription = () => {
   return (
     <>

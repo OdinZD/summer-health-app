@@ -25,7 +25,7 @@ function Main() {
         typeOfRoom="Room"
         categorization={5}
         personCount="2"
-        freeCancelation="True"
+        freeCancelation="Free cancellation available "
         price={500}
         location="Mykonos City"
         postalCode="846 00"

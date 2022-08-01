@@ -1,4 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600");
+
+:root {
+    --black: rgba(0,0,0,1);
+    --big-stone: rgba(26,52,64,1);
+    --alto: rgba(217,217,217,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-xs: 15px;
+    --font-size-m: 16px;
+    --font-size-xxl: 34px;
+    --font-size-s2: 20px;
+    --font-size-m2: 32px;
+    --font-size-l2: 48px;
+    --font-size-xl2: 96x;
+
+    --font-family-roboto: "Roboto";
+    --font-family-roboto-bold: "Roboto-Bold";
+ 
+
+
+}
+
+.roboto-normal-big-stone-16px {
+    color: var(--big-stone);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-medium-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
     align-items: center;
     background-color: var(--white);
@@ -24,6 +61,7 @@
 .frame-container {
     align-items: flex-start;
     display: flex;
+    flex-direction: column;
     height: 665px;
     margin-top: 28px;
     min-width: 1260px;
@@ -96,7 +134,7 @@
     height: min-content;
     width: min-content;
 }
-.frame-13-1 {
+.frame13-1 {
     align-items: center;
     display: flex;
     gap: 15px;
@@ -131,4 +169,66 @@
     margin-top: 5px;
     padding: 24px;
     width: 297px;
+}
+.content {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: min-content;
+    width: min-content;
+}
+.frame-19{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: min-content;
+    width: min-content;
+}
+.property-info {
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    margin-top: -1px;
+    min-width: 119px;
+    white-space: nowrap;
+
+}
+.frame-17 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
+    width: min-content;
+}
+
+.address {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 43px;
+    white-space: nowrap;
+}
+.typeOfRoom {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 43px;
+    white-space: nowrap;
+}
+.price {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 130px;
+    white-space: nowrap;
+}
+.location {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 98px;
+    white-space: nowrap;
+}
+.postalcode {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 50px;
+    white-space: nowrap;
 }
