@@ -11,15 +11,15 @@ import AccommodationDetails from "./components/AccommodationDetailsCard/Accommod
 function Main() {
   return (
     <>
-      {/*  <Header />
-      <Navigation />
+      <Header />
+      {/*  <Navigation />
       <CityCard name="London" count={5102} />
       <AccommodationCard
         title="Sugar & Spice Apartments"
         place="Split"
         price="EUR 75"
-      /> */}
-      <AccommodationDetails
+      />  */}
+      {/* <AccommodationDetails
         title="Poseidon Hotel Suites"
         subtitle="Stay in the heart of Mykonos City"
         typeOfRoom="Room"
@@ -29,9 +29,13 @@ function Main() {
         price={500}
         location="Mykonos City"
         postalCode="846 00"
-      />
-      {/* <PlaceCard />
-      <Footer /> */}
+      /> */}
+      {/* <PlaceCard
+        title="Treehouse"
+        location="Hrusice"
+        subtitle="Renting entire unit"
+      /> */}
+      {/* <Footer /> */}
     </>
   );
 }

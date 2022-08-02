@@ -15,7 +15,7 @@ function AccommodationCard(props: Props) {
         <div className="rectangle-11">
           <img src={Rectangle11} alt="" />
         </div>
-        <div className="sugar-spice-apartments">{props.title}</div>
+        <div className="title">{props.title}</div>
         <div className="place">{props.place}</div>
         <div className="price">{props.price}</div>
         <div className="rating">
