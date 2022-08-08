@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600");
+
+:root {
+    --black: rgba(0,0,0,1);
+    --big-stone: rgba(26,52,64,1);
+    --alto: rgba(217,217,217,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-xs: 15px;
+    --font-size-m: 16px;
+    --font-size-xxl: 34px;
+    --font-size-s2: 20px;
+    --font-size-m2: 32px;
+    --font-size-l2: 48px;
+    --font-size-xl2: 96x;
+
+    --font-family-roboto: "Roboto";
+    --font-family-roboto-bold: "Roboto-Bold";
+ 
+
+
+}
+
+.roboto-normal-big-stone-16px {
+    color: var(--big-stone);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-medium-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 1402px;
+    width: 1440px;
+
+}
+.hidden, .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+.mask-group {
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0px 4px 4px #cdcdcd40;
+    display: flex;
+    gap: 241px;
+    padding: 16px 76px;
+    width: 1440px;
+}
+.frame-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 665px;
+    margin-top: 28px;
+    min-width: 1260px;
+}
+.frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: min-content;
+    width: min-content;
+}
+.description-text {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    width: 810px;
+}
+.frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: max-content;
+    width: min-content;
+}
+.subtitle {
+    color: #7c7c7c;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 239px;
+    white-space: nowrap;
+
+}
+.frame-37 {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    width: min-content;
+}
+.title {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 40.8px;
+    margin-top: -1px;
+    min-width: 339px;
+    white-space: nowrap;
+}
+.rating {
+    align-items: flex-start;
+    display: flex;
+    gap: 1px;
+    height: min-content;
+    width: min-content;
+}
+.icon-star {
+    height: 24px;
+    min-width: 24px;
+}
+.frame-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: min-content;
+    width: min-content;
+}
+.frame13-1 {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    height: min-content;
+    width: min-content;
+
+}
+.calendar {
+    height: 28px;
+    min-width: 28px;
+}
+.cancellation {
+    color: var(--big-stone);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 195px;
+    white-space: nowrap;
+}
+.frame-20 {
+    align-items: flex-start;
+    background-color: #f2fcfc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #cdcdcd40;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    height: min-content;
+    margin-left: 153px;
+    margin-top: 5px;
+    padding: 24px;
+    width: 297px;
+}
+.content {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: min-content;
+    width: min-content;
+}
+.frame-19{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: min-content;
+    width: min-content;
+}
+.property-info {
+    letter-spacing: 0.15px;
+    line-height: 32px;
+    margin-top: -1px;
+    min-width: 119px;
+    white-space: nowrap;
+
+}
+.frame-17 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
+    width: min-content;
+}
+
+.address {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 43px;
+    white-space: nowrap;
+}
+.typeOfRoom {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 43px;
+    white-space: nowrap;
+}
+.price {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 130px;
+    white-space: nowrap;
+}
+.location {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 98px;
+    white-space: nowrap;
+}
+.postalcode {
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    min-width: 50px;
+    white-space: nowrap;
+}
