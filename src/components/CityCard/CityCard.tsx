@@ -3,15 +3,15 @@ import London from "../../img/London.png";
 import "./CityCard.css";
 type Props = {
   name: string;
-  count: number;
+  count: string;
 };
 const CityCard = (props: Props) => {
   return (
     <div>
       <div className="city-container">
-        <img src={London} alt="" />
-        <p>{props.name}</p>
-        <p>{props.count}</p>
+        <img className="img" src={London} alt="" />
+        <div className="name">{props.name}</div>
+        <div className="count">{props?.count}</div>
       </div>
     </div>
   );

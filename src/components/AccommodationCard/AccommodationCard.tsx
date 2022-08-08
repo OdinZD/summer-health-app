@@ -12,7 +12,7 @@ function AccommodationCard(props: Props) {
   return (
     <div className="main-container">
       <div className="propertycard screen">
-        <div className="rectangle-11">
+        <div className="accomodation-img">
           <img src={Rectangle11} alt="" />
         </div>
         <div className="title">{props.title}</div>
